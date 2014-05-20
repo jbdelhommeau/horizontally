@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Horizontally.js | Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+</head>
+<body>
+
+	<div id="container" class="container">
+		<article>Content article 1</article>
+		<article>Content article 2</article>
+		<article>Content article 3</article>
+		<article>Content article 4</article>
+	</div>
+
+	<!-- Scripts -->
+	<script src="../build/horizontally.js"></script>
+	<script>
+
+	var scene = document.getElementById('container');
+	var horizontally = new Horizontally(scene);
+
+	</script>
+
+</body>
+</html>

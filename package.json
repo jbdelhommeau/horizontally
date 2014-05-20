@@ -1,0 +1,33 @@
+{
+  "name": "horizontally",
+  "version": "0.0.1",
+  "description": "Content always horizontal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbdelhommeau/horizontally.git"
+  },
+  "keywords": [
+    "hozitontally",
+    "gyroscope",
+    "jquery",
+    "javascript",
+    "library"
+  ],
+  "author": "Jean-Baptiste Delhommeau <jeanbadel@gmail.com>",
+  "directories": {
+    "example": "examples"
+  },
+  "bugs": {
+    "url": "https://github.com/jbdelhommeau/horizontally/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-load-plugins": "~0.5.1",
+    "gulp-jshint": "~1.6.1",
+    "gulp-uglify": "~0.3.0",
+    "jshint-stylish": "~0.2.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-concat": "~2.2.0"
+  }
+}
